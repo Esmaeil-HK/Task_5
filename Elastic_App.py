@@ -2,6 +2,7 @@ import streamlit as st
 from elasticsearch import Elasticsearch
 from elasticsearch.exceptions import BadRequestError
 
+# anas is bad
 # Connect to Elasticsearch
 es = Elasticsearch(
     ["https://localhost:9200"],
